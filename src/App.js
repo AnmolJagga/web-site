@@ -12,8 +12,8 @@ function App() {
           </ul>
           <Routes>
             <Route path='/' element={<h1>Exact Path</h1>} />
-              <Route index path='about' element={<h1>About Path</h1>} /> 
-            {/* </Route> */}
+            <Route index path='about' element={<h1>About Path</h1>} />
+            <Route path='*' element={<div>Page Not found</div>} />
           </Routes>
       </BrowserRouter>
     </div>
