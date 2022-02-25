@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/web-site'>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
