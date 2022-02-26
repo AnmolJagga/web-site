@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
           <ul>
-            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
           <Routes>
